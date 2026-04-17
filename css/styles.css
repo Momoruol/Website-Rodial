@@ -4,7 +4,15 @@
 @import "../node_modules/@fontsource/roboto-serif/400.css";
 @import "../node_modules/@fontsource/roboto-serif/700.css";
 .ff-roboto {
-  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-family:
+    "Roboto",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif !important;
 }
 
 .ff-serif {
@@ -14,6 +22,7 @@
 body {
   font-family: "Roboto Serif", Georgia, "Times New Roman", serif;
   letter-spacing: 0.0225rem;
+  color: #f8f9fa;
 }
 
 #Linhas .card-body {
