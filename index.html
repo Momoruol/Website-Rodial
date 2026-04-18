@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logo.png" type="jpeg" />
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Móveis Rodial</title>
@@ -11,8 +12,10 @@
   <body class="bg-primary min-vh-100">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a href="#" class="navbar-brand fw-bold tracking-tight">Logo Rodial</a>
+      <div class="container flex-nowrap">
+        <a href="#" class="navbar-brand"
+          ><img class="w-25" src="images/logo.png" alt=""
+        /></a>
 
         <button
           type="button"
@@ -26,14 +29,9 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto gap-lg-3 ff-roboto">
+          <ul class="navbar-nav ms-auto gap-lg-3 ff-roboto fw-bold">
             <li class="nav-item">
-              <a
-                href="#"
-                class="nav-link active text-uppercase"
-                aria-current="page"
-                >Home</a
-              >
+              <a href="#" class="nav-link active" aria-current="page">Home</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Produtos</a>
@@ -42,10 +40,17 @@
               <a href="#" class="nav-link">Catálogo</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Representantes</a>
+              <a href="#" class="nav-link">Contato</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Contato</a>
+              <a
+                target="_blank"
+                id="restrita"
+                href="https://f3iconnect.rodial.com.br:8443/f3iConnect"
+                class="nav-link fw-bold"
+              >
+                <i class="h5 bi bi-lock"></i>Área restrita</a
+              >
             </li>
           </ul>
         </div>
@@ -79,10 +84,16 @@
             <a class="nav-link fs-5" href="#">Catálogo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-5" href="#">Representantes</a>
+            <a class="nav-link fs-5" href="#">Contato</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-5" href="#">Contato</a>
+            <a
+              target="_blank"
+              href="https://f3iconnect.rodial.com.br:8443/f3iConnect"
+              class="nav-link fw-bold"
+            >
+              <i class="h5 bi bi-lock"></i>Área restrita</a
+            >
           </li>
         </ul>
       </div>
@@ -388,6 +399,98 @@
           </div>
         </div>
       </section>
+      <!-- CTA -->
+      <section id="CTA">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="h1 ff-roboto text-center fw-bold">
+                Todos os produtos são feitos seguindo rigidas regras de
+                qualidade, deixando o acabamento impecável e o móvel elegante
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="d-flex flex-column flex-md-row pt-4 justify-content-center align-items-center gap-4"
+              >
+                <button class="ff-roboto btn btn-secondary btn-lg text-primary">
+                  Ver catálogo
+                </button>
+                <button
+                  class="ff-roboto btn btn-outline-secondary btn-lg text-light"
+                >
+                  Entre em contato
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Historia Rodial -->
+      <section id="historia">
+        <div class="container py-6">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="d-grid gap-4">
+                <h3 class="display-6 fw-semibold ff-roboto">
+                  A mais de 58 anos fazendo móveis de qualidade
+                </h3>
+                <p class="fs-6 text-light">
+                  Com mais de cinco décadas de história, a Móveis Rodial está
+                  presente na vida de milhares de famílias no Brasil e no
+                  exterior, unindo funcionalidade e beleza para transformar
+                  lares. Nossa missão é clara: produzir e comercializar móveis
+                  de qualidade, sempre guiados por princípios éticos, excelência
+                  e compromisso com a satisfação de nossos clientes,
+                  colaboradores e parceiros. Especialistas em dormitórios, somos
+                  reconhecidos pela eficiência e profissionalismo, construindo
+                  relações sólidas e duradouras. Valorizamos as pessoas como
+                  nossa maior riqueza, promovendo bem-estar, simplicidade e
+                  ética em cada ação. A responsabilidade social e ambiental é
+                  parte essencial do nosso legado, refletindo nosso respeito
+                  pelas pessoas e pela natureza. Somos a Móveis Rodial, há mais
+                  de 50 anos tornando seu dia a dia mais prático e acolhedor.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div
+                class="d-flex h-100 align-items-center justify-content-center"
+              >
+                <img class="img-fluid" src="images/Imagem_rodial.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA Final -->
+      <section id="CTA final">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="h1 ff-roboto text-start fw-bold">
+                Entre em contato e veja todos os benefícios que temos
+              </h3>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="d-flex flex-column flex-md-row-reverse pt-4 justify-content-center align-items-center gap-4"
+              >
+                <button class="ff-roboto btn btn-secondary btn-lg text-primary">
+                  Ver catálogo
+                </button>
+                <button
+                  class="ff-roboto btn btn-outline-secondary btn-lg text-light"
+                >
+                  Entre em contato
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
@@ -396,37 +499,34 @@
         <div class="row g-3">
           <!-- Logo Rodial -->
           <div class="col-lg-4">
-            <div class="d-flex justify-content-center">
-              <div class="text-light fw-bold h5">Logo Rodial</div>
+            <div class="d-flex justify-content-center align-items-center">
+              <img class="w-25" src="images/logo.png" alt="" />
             </div>
           </div>
           <!-- Navegação Footer -->
           <div class="col-lg-4">
             <ul
-              class="list-unstyled d-flex flex-column flex-sm-row text-center gap-3 justify-content-center"
+              class="ff-roboto list-unstyled d-flex flex-column flex-sm-row text-center h-100 gap-3 justify-content-center align-items-center"
             >
               <li>
-                <a class="text-light text-decoration-none" href="#">Home</a>
+                <a class="nav-link" href="#">Home</a>
               </li>
               <li>
-                <a class="text-light text-decoration-none" href="#">Produtos</a>
+                <a class="nav-link" href="#">Produtos</a>
               </li>
               <li>
-                <a class="text-light text-decoration-none" href="#">Catálogo</a>
+                <a class="nav-link" href="#">Catálogo</a>
               </li>
               <li>
-                <a class="text-light text-decoration-none" href="#"
-                  >Representantes</a
-                >
-              </li>
-              <li>
-                <a class="text-light text-decoration-none" href="#">Contato</a>
+                <a class="nav-link" href="#">Contato</a>
               </li>
             </ul>
           </div>
           <!-- Icones -->
           <div class="col-lg-4">
-            <div class="d-flex gap-3 h3 justify-content-center">
+            <div
+              class="d-flex gap-3 h3 h-100 justify-content-center align-items-center"
+            >
               <a class="text-light" href="#"><i class="bi bi-whatsapp"></i></a>
               <a class="text-light" href="#"><i class="bi bi-instagram"></i></a>
               <a class="text-light" href="#"><i class="bi bi-linkedin"></i></a>
