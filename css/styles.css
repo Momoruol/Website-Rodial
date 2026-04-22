@@ -4,15 +4,7 @@
 @import "../node_modules/@fontsource/roboto-serif/400.css";
 @import "../node_modules/@fontsource/roboto-serif/700.css";
 .ff-roboto {
-  font-family:
-    "Roboto",
-    system-ui,
-    -apple-system,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    sans-serif !important;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
 }
 
 .ff-serif {
@@ -27,4 +19,28 @@ body {
 
 #Linhas .card-body {
   color: #0a0a0a;
+}
+
+.catalog__btn--left {
+  width: 2rem;
+  color: #0a0a0a;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 1rem;
+  transform: translate-y(-50%);
+  border-radius: 1rem;
+  border: none;
+}
+
+.catalog__btn--right {
+  width: 2rem;
+  color: #0a0a0a;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  right: 1rem;
+  transform: translate-y(-50%);
+  border-radius: 1rem;
+  border: none;
 }
