@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logo.png" type="jpeg" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Móveis Rodial</title>
+
+    <script src="./js/page-flip.browser.js" defer></script>
+    <script src="./js/bootstrap.bundle.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body class="bg-primary vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container flex-nowrap">
+        <a href="#" class="navbar-brand"
+          ><img class="w-25" src="images/logo.png" alt=""
+        /></a>
+
+        <button
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          class="navbar-toggler shadow-none"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-lg-3 ff-roboto fw-bold">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="produtos.html" class="nav-link active">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a href="catalogo.html" class="nav-link">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a href="contato.html" class="nav-link">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                id="restrita"
+                href="https://f3iconnect.rodial.com.br:8443/f3iConnect"
+                class="nav-link fw-bold"
+              >
+                <i class="h5 bi bi-lock"></i>Área restrita</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Mobile Sidebar -->
+    <div
+      class="offcanvas offcanvas-end text-bg-secondary"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header border-bottom border-secondary">
+        <h5 class="offcanvas-title fs-5 fw-light" id="offcanvasNavbarLabel">
+          Desde 1968
+        </h5>
+        <button
+          type="button"
+          class="btn-close btn-close-dark"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end grow pe-3 gap-3">
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="produtos.html">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="catalogo.html">Catálogo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a
+              target="_blank"
+              href="https://f3iconnect.rodial.com.br:8443/f3iConnect"
+              class="nav-link fw-bold"
+            >
+              <i class="h5 bi bi-lock"></i>Área restrita</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <main class="bg-primary h-100">
+      <div class="d-flex h-100 justify-content-center align-items-center">
+        <h3 class="ff-roboto fw-bold display-3">Em Breve</h3>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="pt-6">
+      <div class="container">
+        <div class="row g-3">
+          <!-- Logo Rodial -->
+          <div class="col-lg-4">
+            <div class="d-flex justify-content-center align-items-center">
+              <img class="w-25" src="images/logo.png" alt="" />
+            </div>
+          </div>
+          <!-- Navegação Footer -->
+          <div class="col-lg-4">
+            <ul
+              class="ff-roboto list-unstyled d-flex flex-column flex-sm-row text-center h-100 gap-3 justify-content-center align-items-center"
+            >
+              <li>
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="nav-link" href="produtos.html">Produtos</a>
+              </li>
+              <li>
+                <a class="nav-link" href="catalogo.html">Catálogo</a>
+              </li>
+              <li>
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Icones -->
+          <div class="col-lg-4">
+            <div
+              class="d-flex gap-3 h3 h-100 justify-content-center align-items-center"
+            >
+              <a class="text-light" href="#"><i class="bi bi-whatsapp"></i></a>
+              <a class="text-light" href="#"><i class="bi bi-instagram"></i></a>
+              <a class="text-light" href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="row pt-4">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <p class="text-light text-center fw-normal">
+                Moveis Rodial LTDA &copy 2026. Todos os direitos reservados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script_page-flip.js" defer></script>
+  </body>
+</html>

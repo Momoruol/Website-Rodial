@@ -44,3 +44,8 @@ body {
   border-radius: 1rem;
   border: none;
 }
+
+#Carousel .slide {
+  width: 90%;
+  margin: 0 auto;
+}
