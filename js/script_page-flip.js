@@ -58,8 +58,31 @@ pageFlip.loadFromImages([
   "./catalogo/page_38.jpg",
   "./catalogo/page_39.jpg",
 ]);
-setTimeout(100);
+setTimeout(fixCanvasDPR, 100);
 
 document.getElementById("prev").onclick = () => pageFlip.flipPrev();
 document.getElementById("next").onclick = () => pageFlip.flipNext();
+
+pageFlip.on("flip", fixCanvasDPR);
+window.addEventListener("resize", fixCanvasDPR);
+
+
+/* ============================================================ */
+/* Melhora a nitidez da versao mobile do catalogo */
+function fixCanvasDPR() {
+  const canvas = document.querySelector(".stf__canvas");
+  if (!canvas) return;
+
+  const dpr = window.devicePixelRatio || 1;
+  const rect = canvas.getBoundingClientRect();
+
+  canvas.width = rect.width * dpr;
+  canvas.height = rect.height * dpr;
+
+  canvas.style.width = rect.width + "px";
+  canvas.style.height = rect.height + "px";
+
+  const ctx = canvas.getContext("2d");
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
 
