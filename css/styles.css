@@ -61,3 +61,8 @@ body {
 .verso-rodial {
   width: 150px;
 }
+
+.img-manuais {
+  max-width: 600px;
+  border-radius: 1.225rem;
+}
