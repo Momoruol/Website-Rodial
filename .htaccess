@@ -1,0 +1,40 @@
+RewriteEngine On
+RewriteBase /
+
+# 1: gr6691p -> roupeiros/6691pnr.html
+RewriteRule ^manuais-de-montagem/montagem-gr6691p$ /manuais/roupeiros/6691pnr.html [R=301,L,NE]
+# 2: gr8000/gr8010 -> roupeiros/8000pnr.html (Suportando ambas as variações de URL-encode)
+RewriteRule ^manuais-de-montagem/montagem-gr8000%2Fgr8010$ /manuais/roupeiros/8000pnr.html [R=301,L,NE]
+RewriteRule ^manuais-de-montagem/montagem-gr8000/gr8010$ /manuais/roupeiros/8000pnr.html [R=301,L,NE]
+# 3: aurora -> roupeiros/aurora.html
+RewriteRule ^manuais-de-montagem/montagem-aurora$ /manuais/roupeiros/aurora.html [R=301,L,NE]
+# 4: bella -> roupeiros/bella.html
+RewriteRule ^manuais-de-montagem/montagem-bella$ /manuais/roupeiros/bella.html [R=301,L,NE]
+# 5: catavento -> comodas/catavento.html
+RewriteRule ^manuais-de-montagem/montagem-catavento$ /manuais/comodas/catavento.html [R=301,L,NE]
+# 6: corais-1524 -> comodas/corais.html
+RewriteRule ^manuais-de-montagem/montagem-corais-1524$ /manuais/comodas/corais.html [R=301,L,NE]
+# 7: kids -> comodas/kids.html
+RewriteRule ^manuais-de-montagem/montagem-kids$ /manuais/comodas/kids.html [R=301,L,NE]
+# 8: kyra -> comodas/kyra.html
+RewriteRule ^manuais-de-montagem/montagem-kyra$ /manuais/comodas/kyra.html [R=301,L,NE]
+# 9: laguna -> roupeiros/laguna.html
+RewriteRule ^manuais-de-montagem/montagem-laguna$ /manuais/roupeiros/laguna.html [R=301,L,NE]
+# 10: magia -> comodas/magia.html
+RewriteRule ^manuais-de-montagem/montagem-magia$ /manuais/comodas/magia.html [R=301,L,NE]
+# 11: pandora -> comodas/pandora.html
+RewriteRule ^manuais-de-montagem/montagem-pandora$ /manuais/comodas/pandora.html [R=301,L,NE]
+# 12: prado -> comodas/prado.html
+RewriteRule ^manuais-de-montagem/montagem-prado$ /manuais/comodas/prado.html [R=301,L,NE]
+# 13: savana-0524 -> comodas/savana.html
+RewriteRule ^manuais-de-montagem/montagem-savana-0524$ /manuais/comodas/savana.html [R=301,L,NE]
+# 14: stop-1445 -> comodas/stop.html
+RewriteRule ^manuais-de-montagem/montagem-stop-1445$ /manuais/comodas/stop.html [R=301,L,NE]
+# 15: torres-1024 -> comodas/torres.html
+RewriteRule ^manuais-de-montagem/montagem-torres-1024$ /manuais/comodas/torres.html [R=301,L,NE]
+# 16: garda -> cabeceiras/garda.html
+RewriteRule ^manuais-de-montagem/montagem-garda$ /manuais/cabeceiras/garda.html [R=301,L,NE]
+# 17: ipe -> cabeceiras/ipe.html
+RewriteRule ^manuais-de-montagem/montagem-ipe$ /manuais/cabeceiras/ipe.html [R=301,L,NE]
+# 18: genius-gr1001 -> roupeiros/armario_genius_1p.html
+RewriteRule ^manuais-de-montagem/montagem-genius-gr1001$ /manuais/roupeiros/armario_genius_1p.html [R=301,L,NE]
