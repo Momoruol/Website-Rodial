@@ -38,3 +38,13 @@ RewriteRule ^manuais-de-montagem/montagem-garda$ /manuais/cabeceiras/garda.html 
 RewriteRule ^manuais-de-montagem/montagem-ipe$ /manuais/cabeceiras/ipe.html [R=301,L,NE]
 # 18: genius-gr1001 -> roupeiros/armario_genius_1p.html
 RewriteRule ^manuais-de-montagem/montagem-genius-gr1001$ /manuais/roupeiros/armario_genius_1p.html [R=301,L,NE]
+# 19: smart-gr2123 -> roupeiros/smart2123s.html
+RewriteRule ^manuais-de-montagem/montagem-smart-gr2123$ /manuais/roupeiros/smart2123s.html [R=301,L,NE]
+# 20: adoleta -> roupeiros/infantil3247.html
+RewriteRule ^manuais-de-montagem/montagem-adoleta$ /manuais/roupeiros/infantil3247.html [R=301,L,NE]
+# 21: bambole -> roupeiros/infantil4247.html
+RewriteRule ^manuais-de-montagem/montagem-bambole$ /manuais/roupeiros/infantil4247.html [R=301,L,NE]
+# 22: ciranda -> roupeiros/infantil4345.html
+RewriteRule ^manuais-de-montagem/montagem-ciranda$ /manuais/roupeiros/infantil4345.html [R=301,L,NE]
+# 23: paris -> roupeiros/paris.html
+RewriteRule ^manuais-de-montagem/montagem-paris$ /manuais/roupeiros/paris.html [R=301,L,NE]
