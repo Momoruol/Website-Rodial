@@ -64,3 +64,14 @@ body {
   max-width: 600px;
   padding: 0 2rem;
 }
+
+.card_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.725rem;
+  width: 80%;
+}
+
+.card_contact p {
+  margin-bottom: 0;
+}

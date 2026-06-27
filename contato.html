@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,8 +15,6 @@
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Móveis Rodial</title>
-
-    <script src="./js/page-flip.browser.js" defer></script>
     <script src="./js/bootstrap.bundle.min.js" defer></script>
     <script src="./js/script.js" defer></script>
   </head>
@@ -104,10 +109,60 @@
         </ul>
       </div>
     </div>
-    <main class="bg-primary h-100">
-      <div class="d-flex h-100 justify-content-center align-items-center">
-        <h3 class="ff-roboto fw-bold display-3">Em Breve</h3>
-      </div>
+    <main class="pt-5">
+      <section id="contatos">
+        <div class="container">
+          <div class="row pb-5">
+            <div class="col-12">
+              <h2 class="text-center h1">Entre em contato</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="d-flex justify-content-center">
+                <div class="card_contact p-3 shadow-lg rounded-4">
+                  <div>
+                    <h4 class="fw-bold h1">Comercial</h4>
+                    <div class="border-start">
+                      <p class="ps-2 lead">Exportação, orçamentos e pedidos</p>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column gap-3">
+                    <p class="fw-bold">
+                      <i class="fa-solid fa-circle-user fa-2xl"></i>
+                      Jair
+                    </p>
+                    <p class="fw-bold">
+                      <i class="fa-solid fa-phone fa-2xl"></i>(54) 99999-9999
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-center">
+                <div class="card_contact p-3 shadow-lg rounded-4">
+                  <div>
+                    <h4 class="fw-bold h1">Geral</h4>
+                    <div class="border-start">
+                      <p class="ps-2 lead">Para quaisquer outros assuntos</p>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column gap-3">
+                    <p class="fw-bold">
+                      <i class="fa-solid fa-circle-user fa-2xl"></i>
+                      Rodial
+                    </p>
+                    <p class="fw-bold">
+                      <i class="fa-solid fa-phone fa-2xl"></i>(54) 99999-9999
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
@@ -167,6 +222,5 @@
         </div>
       </div>
     </footer>
-    <script src="./js/script_page-flip.js" defer></script>
   </body>
 </html>
