@@ -32,6 +32,7 @@ RewriteRule ^manuais-de-montagem/montagem-savana-0524$ /manuais/comodas/savana.h
 RewriteRule ^manuais-de-montagem/montagem-stop-1445$ /manuais/comodas/stop.html [R=301,L,NE]
 # 15: torres-1024 -> comodas/torres.html
 RewriteRule ^manuais-de-montagem/montagem-torres-1024$ /manuais/comodas/torres.html [R=301,L,NE]
+RewriteRule ^manuais-de-montagem/montagem-torres$ /manuais/comodas/torres.html [R=301,L,NE]
 # 16: garda -> cabeceiras/garda.html
 RewriteRule ^manuais-de-montagem/montagem-garda$ /manuais/cabeceiras/garda.html [R=301,L,NE]
 # 17: ipe -> cabeceiras/ipe.html
@@ -48,3 +49,11 @@ RewriteRule ^manuais-de-montagem/montagem-bambole$ /manuais/roupeiros/infantil42
 RewriteRule ^manuais-de-montagem/montagem-ciranda$ /manuais/roupeiros/infantil4345.html [R=301,L,NE]
 # 23: paris -> roupeiros/paris.html
 RewriteRule ^manuais-de-montagem/montagem-paris$ /manuais/roupeiros/paris.html [R=301,L,NE]
+# 24: lancaster -> roupeiros/lancaster.html
+RewriteRule ^manuais-de-montagem/montagem-lancaster$ /manuais/roupeiros/lancaster.html [R=301,L,NE]
+# 25: smart 1 porta -> roupeiros/smart1000.html
+RewriteRule ^manuais-de-montagem/montagem-smart-gr1000$ /manuais/roupeiros/smart1000.html [R=301,L,NE]
+# 26: smart de canto -> roupeiros/smart1010.html
+RewriteRule ^manuais-de-montagem/montagem-smart-gr1010$ /manuais/roupeiros/smart1000.html [R=301,L,NE]
+# 26: multiuso ribeirao -> complementos/mu1065.html
+RewriteRule ^manuais-de-montagem/montagem-ribeirao$ /manuais/complementos/mu1065.html [R=301,L,NE]
