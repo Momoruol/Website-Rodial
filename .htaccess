@@ -57,3 +57,5 @@ RewriteRule ^manuais-de-montagem/montagem-smart-gr1000$ /manuais/roupeiros/smart
 RewriteRule ^manuais-de-montagem/montagem-smart-gr1010$ /manuais/roupeiros/smart1000.html [R=301,L,NE]
 # 26: multiuso ribeirao -> complementos/mu1065.html
 RewriteRule ^manuais-de-montagem/montagem-ribeirao$ /manuais/complementos/mu1065.html [R=301,L,NE]
+# 27: valença -> roupeiros/valenca4352.html
+RewriteRule ^manuais-de-montagem/montagem-valenca$ /manuais/roupeiros/valenca4352.html [R=301,L,NE]
