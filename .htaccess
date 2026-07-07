@@ -59,3 +59,9 @@ RewriteRule ^manuais-de-montagem/montagem-smart-gr1010$ /manuais/roupeiros/smart
 RewriteRule ^manuais-de-montagem/montagem-ribeirao$ /manuais/complementos/mu1065.html [R=301,L,NE]
 # 27: valença -> roupeiros/valenca4352.html
 RewriteRule ^manuais-de-montagem/montagem-valenca$ /manuais/roupeiros/valenca4352.html [R=301,L,NE]
+# 28: cabeceira casal -> cabeceiras/d8122.html
+RewriteRule ^manuais-de-montagem/montagem-d8122$ /manuais/cabeceiras/d8122.html [R=301,L,NE]
+# 29: sapateira seridó-> complementos/mu2065.html
+RewriteRule ^manuais-de-montagem/montagem-serido-mu2065$ /manuais/complementos/mu2065.html [R=301,L,NE]
+# 30: cabeceira milas-> cabeceiras/milas.html
+RewriteRule ^manuais-de-montagem/montagem-milas$ /manuais/cabeceiras/milas.html [R=301,L,NE]
