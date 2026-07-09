@@ -65,3 +65,9 @@ RewriteRule ^manuais-de-montagem/montagem-d8122$ /manuais/cabeceiras/d8122.html 
 RewriteRule ^manuais-de-montagem/montagem-serido-mu2065$ /manuais/complementos/mu2065.html [R=301,L,NE]
 # 30: cabeceira milas-> cabeceiras/milas.html
 RewriteRule ^manuais-de-montagem/montagem-milas$ /manuais/cabeceiras/milas.html [R=301,L,NE]
+# 31: genius GR0230-> roupeiros/gr0230.html
+RewriteRule ^manuais-de-montagem/montagem-genius-gr0230$ /manuais/roupeiros/gr0230.html [R=301,L,NE]
+# 32: new capri-> roupeiros/newcapri.html
+RewriteRule ^manuais-de-montagem/montagem-new-capri-6374$ /manuais/roupeiros/newcapri.html [R=301,L,NE]
+# 33: smart gr4220s-> roupeiros/gr4220.html
+RewriteRule ^manuais-de-montagem/montagem-smart-4220s$ /manuais/roupeiros/gr4220.html [R=301,L,NE]
