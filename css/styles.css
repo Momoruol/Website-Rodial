@@ -1,6 +1,4 @@
-@import "@fontsource/roboto/300.css";
-@import "@fontsource/roboto/400.css";
-@import "@fontsource/roboto/700.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 .border__rodial {
   border: 2px solid #ad262c;
 }
@@ -74,4 +72,44 @@ body {
 
 .card_contact p {
   margin-bottom: 0;
+}
+
+.product-gallery .carousel-indicators {
+  width: auto;
+  flex-wrap: nowrap;
+}
+.product-gallery .carousel-indicators button {
+  width: 80px;
+  height: 80px;
+  text-indent: 0;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  padding: 2px;
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+.product-gallery .carousel-indicators button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+}
+.product-gallery .carousel-indicators button.active, .product-gallery .carousel-indicators button:hover {
+  opacity: 1;
+  border-color: #ad262c;
+}
+.product-gallery .carousel-inner {
+  flex-grow: 1;
+  aspect-ratio: 1/1;
+  background-color: #F8F9FA;
+}
+.product-gallery .carousel-inner .carousel-item {
+  height: 100%;
+}
+.product-gallery .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
