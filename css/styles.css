@@ -74,6 +74,11 @@ body {
   margin-bottom: 0;
 }
 
+.evento_img {
+  max-width: 600px;
+  width: 100%;
+}
+
 .product-gallery .carousel-indicators {
   width: auto;
   flex-wrap: nowrap;
